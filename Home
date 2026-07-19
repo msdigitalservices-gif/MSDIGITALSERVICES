@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MS Digital Service</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+body{
+    background:#f5f5f5;
+}
+header{
+    background:#0056b3;
+    color:#fff;
+    padding:15px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.logo{
+    font-size:24px;
+    font-weight:bold;
+}
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 10px;
+    font-weight:bold;
+}
+.hero{
+    background:linear-gradient(135deg,#0066cc,#00aaff);
+    color:white;
+    text-align:center;
+    padding:60px 20px;
+}
+.hero h1{
+    font-size:40px;
+}
+.hero p{
+    margin:15px 0;
+}
+.btn{
+    display:inline-block;
+    background:#fff;
+    color:#0066cc;
+    padding:12px 20px;
+    border-radius:8px;
+    text-decoration:none;
+    font-weight:bold;
+}
+.section{
+    padding:40px 20px;
+}
+.section h2{
+    text-align:center;
+    margin-bottom:25px;
+}
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+}
+.card{
+    background:white;
+    border-radius:10px;
+    padding:20px;
+    box-shadow:0 3px 10px rgba(0,0,0,.1);
+    text-align:center;
+}
+.card h3{
+    color:#0056b3;
+    margin-bottom:10px;
+}
+.card p{
+    color:#555;
+}
+.card a{
+    display:inline-block;
+    margin-top:15px;
+    background:#0056b3;
+    color:white;
+    padding:10px 18px;
+    border-radius:6px;
+    text-decoration:none;
+}
+footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
+.call{
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    background:#0066cc;
+    color:white;
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-decoration:none;
+    font-size:28px;
+}
+.whatsapp{
+    position:fixed;
+    bottom:90px;
+    right:20px;
+    background:#25D366;
+    color:white;
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-decoration:none;
+    font-size:28px;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+<div class="logo">MS Digital Service</div>
+
+<nav>
+<a href="#">Home</a>
+<a href="pan.html">PAN</a>
+<a href="aadhaar.html">Aadhaar</a>
+<a href="contact.html">Contact</a>
+</nav>
+</header>
+
+<section class="hero">
+<h1>Welcome to MS Digital Service</h1>
+<p>All Online Digital Services Available at One Place</p>
+
+<a class="btn" href="https://wa.me/919315875189">
+Enquiry Now
+</a>
+
+</section>
+
+<section class="section">
+
+<h2>Our Services</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>PAN Card</h3>
+<p>New PAN, Correction & Reprint</p>
+<a href="pan.html">View Details</a>
+</div>
+
+<div class="card">
+<h3>Aadhaar</h3>
+<p>Download, Update & PVC Card</p>
+<a href="aadhaar.html">View Details</a>
+</div>
+
+<div class="card">
+<h3>Voter ID</h3>
+<p>New Registration & Correction</p>
+<a href="voter.html">View Details</a>
+</div>
+
+<div class="card">
+<h3>Passport</h3>
+<p>Fresh Passport & Renewal</p>
+<a href="passport.html">View Details</a>
+</div>
+
+<div class="card">
+<h3>Visa</h3>
+<p>Tourist, Student & Work Visa</p>
+<a href="visa.html">View Details</a>
+</div>
+
+<div class="card">
+<h3>Insurance</h3>
+<p>Bike, Car & Health Insurance</p>
+<a href="insurance.html">View Details</a>
+</div>
+
+<div class="card">
+<h3>Website Development</h3>
+<p>Business Websites & Landing Pages</p>
+<a href="website.html">View Details</a>
+</div>
+
+<div class="card">
+<h3>DU / SOL Admission</h3>
+<p>Online Admission Support</p>
+<a href="dusol.html">View Details</a>
+</div>
+
+<div class="card">
+<h3>Government Forms</h3>
+<p>All Online Government Services</p>
+<a href="govtforms.html">View Details</a>
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<h3>MS Digital Service</h3>
+
+<p>📞 Call : 9315875189</p>
+
+<p>📍 Delhi, India</p>
+
+<p>© 2026 All Rights Reserved</p>
+
+</footer>
+
+<a class="call" href="tel:+919315875189">📞</a>
+
+<a class="whatsapp"
+href="https://wa.me/919315875189?text=Hello%20MS%20Digital%20Service%2C%20I%20need%20information.">
+💬
+</a>
+
+</body>
+</html>
